@@ -1,0 +1,111 @@
+body{
+    height: 200px;
+    background: linear-gradient(90deg, rgba(122,129,237,1) 0%, rgba(109,208,226,1) 50%, rgba(100,255,218,1) 100%);
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+#lyric{
+    white-space: pre-wrap;
+}
+
+#artist{
+    white-space: pre-wrap;
+}
+
+#lyricCard{
+    font-size: 16px;
+    font-family: 'Archivo', sans-serif;
+    /* margin-left: 120px;
+    margin-right: 50px;
+    margin-top: 50px; */
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 5%;
+    
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 0px 30px 10px rgb(98, 98, 192);
+    border: 2px solid black;
+}
+
+#artistCard{
+    font-size: 16px;
+    font-family: 'Archivo', sans-serif;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 5%;
+    border-radius: 12px;
+    padding: 10%;
+    box-shadow: 0 0px 30px 10px rgb(98, 98, 192);
+    border: 2px solid black;
+}
+
+#backBtn{
+    box-shadow: 0 0px 30px 10px rgb(98, 98, 192);
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-left: 50px;
+    /* margin-bottom: 20px; */
+}
+
+#backBtn:hover{
+background-color: red;
+color: white;
+}
+
+.infoText{
+    font-family: 'Cairo', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+a{
+    color: purple;
+}
+
+#music-notes{
+    width: 80%;
+    /* position: absolute; */
+    right: 200px;
+    top: 400px;
+}
+
+.videoDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#gifVideoTag{
+    min-width: 320px;
+    min-height: 240px;
+}
+
+.notesDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width:1000px) {
+    .row {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row .col.s6 {
+        width: 70%;
+        margin-left: unset;
+    }
+
+    .row .col.m6 {
+        margin-left: unset;
+    }
+}
